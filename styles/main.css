@@ -1,26 +1,26 @@
-var whiteC = #000000;
+
 body {
-  background-color: #add8e6;
+  background-color: lightblue;
 }
 
 head {
   text-align: center;
-  color: whiteC;
+  color: black;
 }
 
 h1 {
   font-family: arial;
-    color: #ffffff;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 h2, h3{
   font-family : arial;
-  color: #ffffff;
+  color: white;
   text-align: center;
 }
 
 p {
-    font-family: verdana;
-    font-size: 20px;
-    text-align: center;
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
 }
