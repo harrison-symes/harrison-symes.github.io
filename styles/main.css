@@ -25,6 +25,14 @@ h1, h2, h3{
 
 
 p {
+  div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+}
   font-family: verdana;
   font-size: 20px;
   text-align: center;
