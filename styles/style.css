@@ -1,0 +1,18 @@
+
+
+/* =Hero
+---------*/
+
+.hero {
+  padding: 0;
+  min-height:  500px;
+  text-align:  center;
+  position: relative;
+  background-color: #d56d4d;
+  color: white;
+}
+.hero-image {
+  background:  url("../images/Green-bricks.jpg" no-repeat;
+}
+
+}
