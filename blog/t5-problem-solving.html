@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tech blog Sprint 5</title>
+</head>
+<body>
+<h1>Sprint 5 Technical Blog</h1>
+<h2>A time I got blocked on a simple problem</h3>
+<p>A great example of this is while I was working on the Minesweeper game for sprint 6. While doing the win detection step, I had a for loop, with and if- else if block, with another if statement contained within the first. With all these nested conditionals, it could get a little tricky to trace through and understand what wasn't working. Every other element of the game was working and displaying during tests, but I couldnt get the win prompt to show up. </p>
+<p>I rewrote the code several times, and traced back through the related code to find anything that wasnt correct, and though I found several innaccuracies, I still couldnt get the win condition to occur. </p>
+<p>The way I solved the problem was by using Console.log statements throughout the conditionals, to print a string of code about the conditional. On the chrome developer tools I could observe the log as I ran through the game, and could check whether the code was actually reaching the individual conditionals or not. Using this I managed to find that the code was failing when it found that a mine that was marked was still considered to be hidden. Once I managed to work around this bump, the win condition prompted correctly. </p>
+<p>Through solving this problem I found how useful it can be to use console.log to check individual conditions that are/aren't being reached during certain events in the program, and is a problem solving technique I will use in the future, and recommend highly</p>
+
+<h2 ul>Other Processes</ul></h2>
+<li>PseudoCode</li>
+<p>I usually consider PseudoCode in my head, thinking through the steps that a program will need to go through, and consider simple elements that it will use. This way I have a good idea of the main operators in the code, but can solve the more complex problems while working through it. I should get into a better habit of drawing out pseudocode, in a chart or simple blocks.</p>
+<li>Trying Something</li>
+<p>After considering pseudocode, trying stuff and seeing what sticks is another thing I do regularly. You always have room to go back and refine code later, but being able to block out elements and solve several small problems to solve a big problem is a method that works a lot more naturally for me.</p>
+<li>Rubber Ducky Method</li>
+<p>Upon looking up this method to understand what it means, I am aware that I often do this when stuck. I will individually go through and read out loud what each line of code is meant to do. I'll play out a scenario and go through the conditionals and follow where the code will lead for that use case. This is a good method for double checking slowly that you didnt make a small mistake somwhere, logical or syntaxical. </p>
+<li>Reading Error Methods</li>
+<p>Sublime/Atom give plenty of error statements while coding, and I always pay attention to them. But so far in my time at eda I haven't needed to make an individual function to catch errors. This is something I did while studying Java, so when the time comes I should be able to pick up this skill easily. </p>
+<li>Googling</li>
+<p>I use gooogle regularly to find documentation for certain language elements. If I don't, for example, fully understand the breadth of what a class or object in Javascript are capable of, I find it helpful to read through the documentation. While I may not know how to apply all of it's uses, I can at least understand what it is functionally at a broader level.</p>
+<li>Asking peers for help</li>
+<p>This is something I am not very confident with. I prefer to solve problems myself rather than admit to someone of similar level that I do not understand. This is a bad habit carried over from university where I felt like I would miss one simple concept that everyone else seemed to pick up easily, but would be too ashamed to ask for help. I will be sure to push myself to ask for help, especially as EDA has a more comfortable peer environment</p>
+<li>Improving your process with reflection</li>
+<p>I often reflect on what elements I used in my problem and how they were useful above other concepts I could have considered. This helped me to understand broadly how I solved the mass problems, and can more naturally apply those problem solving skills to future problems.</p>
+
+<h2>Describing other Elements</h2>
+<h3>Array.map()</h3>
+<p>Can perform a custom method on every item within an array, and return a new array with the results of the custom method</p>
+<h3>Array.filter</h3>
+<p>Similar to map, performs a custom method/function through an array, but where the custom function returns true or false based on preset conditions. The array that is returned is just the original array, but only with elements that returned true remaining.</p>
+<h3>Reduces and array to only one element. You can customize how this is done, but a collection of strings would default to being one long string, or a group of numbers will be summed into one element of their total.</h3>
+</body>
+</html>
