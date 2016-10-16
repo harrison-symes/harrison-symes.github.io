@@ -138,14 +138,9 @@ section {
   background-size: 130%;
 }
 
-.introduction {
-  background: url("../images/plants_1.jpg");
-  background-position: 10% 85%;
-  background-size: 100%;
-}
 .work {
-  background: url("../images/math_1.jpg");
-  background-position: 100% 50%;\
+  background: url("../images/white_1.jpg");
+  background-position: 90% 60%;\
   background-size: 10%;
 }
 
