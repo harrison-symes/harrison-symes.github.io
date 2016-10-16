@@ -134,14 +134,27 @@ section {
 
 .video:before {
   background: url("../images/horse_1.jpg");
+  background-position: 30% 20%}
+
+.introduction {
+  background: url("../images/plants_1.jpg");
+  background-position: 10% 85%;
+  background-size: 100%;
+}
+.work {
+  background: url("../images/math_1.jpg");
+  background-position: 100% 50%;\
+  background-size: 10%;
 }
 
-.introduction:before {
-  background: url("../images/water_2.jpg");
+.hero {
+  background: url("../images/water_3.jpg");
+  background-position: 35% 40%;
 }
-
 .footer {
   background-color: #222222;
+  background: url("../images/space_2.jpg");
+  background-position: 30% 6%;
   color: white;
 }
 
@@ -277,9 +290,10 @@ section {
 }
 
 .work-filters li {
+  text-align: center;
   display: inline-block;
   margin: 0 .5em;
-  font-size: 18px;
+  font-size: 22px;
   text-transform: uppercase;
 }
 
@@ -298,11 +312,11 @@ section {
 .work-items li {
   position: relative;
   overflow: hidden;
-  height: 360px;
+  height: 130px;
 
   margin: 0;
   width: 33%;
-  border: 10px solid white;
+  
   position: relative;
 }
 
