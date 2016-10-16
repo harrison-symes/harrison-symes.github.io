@@ -134,7 +134,9 @@ section {
 
 .video:before {
   background: url("../images/horse_1.jpg");
-  background-position: 30% 20%}
+  background-position: 30% 20%;
+  background-size: 130%;
+}
 
 .introduction {
   background: url("../images/plants_1.jpg");
